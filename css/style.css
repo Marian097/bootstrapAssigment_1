@@ -29,45 +29,21 @@ header img {
 /* Stop Header */
 
 /* Start Hero-Section */
-#hero-section {
+
+#hero-section img {
     width: 100%;
     height: auto;
-    background-image: url("../img/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
-
-#hero-section .text {
+#hero-section .citat {
     position: absolute;
-    width: 30%;
+    background-color: green;
     height: 3rem;
-    background-color: rgb(4, 134, 4);
-    margin-top: 7%;
-}
-
-
-@media (max-width: 515px)
-{
-    #hero-section .text {
-        position: absolute;
-        width: 85%;
-        height: 1rem;
-        background-color: rgb(4, 134, 4);
-        margin-top: 10%;
-        margin-left: 2.5%;
-    }
+    margin-top: 100px;
 }
 
 
 /* Stop Hero-Section */
-
-/* SECTION-1 */
-
-
-
-/* STOP SECTION-1 */
-
 
 /* SECTION-2 */
 #section-2 img {
