@@ -10,40 +10,77 @@
 
 /* Start Header */
 
-
-header a {
+header .col-md-8 a {
+    margin-left: 15px;
     color: black;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
-header a :visited{
-    color: black;
+header .col-6 img {
+    width: auto;
+    height: 20px;
 }
-
-header img {
-    width: 30%;
-    height: 30%;
-
-}
-
 /* Stop Header */
 
 /* Start Hero-Section */
 
-#hero-section img {
-    width: 100%;
-    height: auto;
+#hero-section {
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 70vh;
 }
 
-#hero-section .citat {
-    position: absolute;
+#hero-section .col-5{
+    height: 10vh;
     background-color: green;
-    height: 3rem;
-    margin-top: 100px;
+    margin-top: 15vh !important;
+    font-size: 1.3rem;
 }
+
+
+@media(max-width: 515px)
+{
+
+    #hero-section {
+        height: 40vh;
+    }
+
+    #hero-section .col-5{
+        height: 5vh;
+        width: 100vw;
+        background-color: green;
+        margin-top: 15vh !important;
+        font-size: 1rem;
+    }
+}
+
+
+@media(min-width: 516px) and (max-width: 992px) 
+{
+
+    #hero-section {
+        height: 40vh;
+    }
+
+    #hero-section .col-5{
+        height: 5vh;
+        width: 60vw;
+        background-color: green;
+        margin: 5vh auto !important;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
 
 
 /* Stop Hero-Section */
+
+
 
 /* SECTION-2 */
 #section-2 img {
@@ -54,6 +91,8 @@ header img {
 #section-2 h3 {
     border-bottom: 1px solid rgba(157, 156, 156, 0.758);
 }
+
+
 
 /* STOP SECTION-2 */
 
